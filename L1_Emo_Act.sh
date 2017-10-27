@@ -30,7 +30,7 @@ sed -e 's@OUTPUT@'$OUTPUT'@g' \
 -e 's@EVFEAR@'$EVFEAR'@g' \
 -e 's@EVNEUT@'$EVNEUT'@g' \
 <$ITEMPLATE> $OTEMPLATE
-feat ${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_Emotion_Act.fsf
+feat $OTEMPLATE
 
 #delete unused files
 #rm -rf ${OUTPUT}.feat/filtered_func_data.nii.gz
