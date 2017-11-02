@@ -273,7 +273,7 @@ set feat_files(1) "DATA"
 set fmri(confoundevs) 0
 
 # EV 1 title
-set fmri(evtitle1) "2BK_BODY"
+set fmri(evtitle1) "TBKBODY"
 
 # Basic waveform shape (EV 1)
 # 0 : Square
@@ -334,7 +334,7 @@ set fmri(ortho1.7) 0
 set fmri(ortho1.8) 0
 
 # EV 2 title
-set fmri(evtitle2) "2BK_FACE"
+set fmri(evtitle2) "TBKFACE"
 
 # Basic waveform shape (EV 2)
 # 0 : Square
@@ -395,7 +395,7 @@ set fmri(ortho2.7) 0
 set fmri(ortho2.8) 0
 
 # EV 3 title
-set fmri(evtitle3) "2BK_PLACE"
+set fmri(evtitle3) "TBKPLACE"
 
 # Basic waveform shape (EV 3)
 # 0 : Square
@@ -456,7 +456,7 @@ set fmri(ortho3.7) 0
 set fmri(ortho3.8) 0
 
 # EV 4 title
-set fmri(evtitle4) "2BK_TOOL"
+set fmri(evtitle4) "TBKTOOL"
 
 # Basic waveform shape (EV 4)
 # 0 : Square
@@ -517,7 +517,7 @@ set fmri(ortho4.7) 0
 set fmri(ortho4.8) 0
 
 # EV 5 title
-set fmri(evtitle5) "0BK_BODY"
+set fmri(evtitle5) "ZBKBODY"
 
 # Basic waveform shape (EV 5)
 # 0 : Square
@@ -578,7 +578,7 @@ set fmri(ortho5.7) 0
 set fmri(ortho5.8) 0
 
 # EV 6 title
-set fmri(evtitle6) "0BK_FACE"
+set fmri(evtitle6) "ZBKFACE"
 
 # Basic waveform shape (EV 6)
 # 0 : Square
@@ -639,7 +639,7 @@ set fmri(ortho6.7) 0
 set fmri(ortho6.8) 0
 
 # EV 7 title
-set fmri(evtitle7) "0BK_PLACE"
+set fmri(evtitle7) "ZBKPLACE"
 
 # Basic waveform shape (EV 7)
 # 0 : Square
@@ -700,7 +700,7 @@ set fmri(ortho7.7) 0
 set fmri(ortho7.8) 0
 
 # EV 8 title
-set fmri(evtitle8) "0BK_TOOL"
+set fmri(evtitle8) "ZBKTOOL"
 
 # Basic waveform shape (EV 8)
 # 0 : Square

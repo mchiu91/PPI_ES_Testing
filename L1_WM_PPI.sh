@@ -10,11 +10,7 @@ MAINDATADIR=`pwd`/data
 MAINOUTPUTDIR=`pwd`/outputs
 cd $basedir
 
-#datadir=/home/tue90350/data/186_Subjects_${task}/$subj/${subj}_3T_tfMRI_${task}_preproc/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}
-
-#datadir=${basedir}/data/186_Subjects_${task}/$subj/${subj}_3T_tfMRI_${task}_preproc/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}
-
-OUTPUT=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_WM_Act
+OUTPUT=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_WM_PPI
 DATA=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/smoothing.feat/ICA_AROMA/denoised_func_data_nonaggr.nii.gz
 NVOLUMES=`fslnvols ${DATA}`
 rm -rf ${OUTPUT}.feat
@@ -32,8 +28,13 @@ TBKFACE=${EVDIR}/2bk_faces
 TBKPLACE=${EVDIR}/2bk_places
 TBKTOOL=${EVDIR}/2bk_tools
 
+#generate mask's timecourse
+MASK=${basedir}/Masks/rT1_Amygdala_Seed.nii
+TIMECOURSE=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/my_timecourse.txt
+fslmeants -i $DATA -o $TIMECOURSE -m $MASK
+
 #find and replace: run feat for smoothing
-ITEMPLATE=${basedir}/templates/L1_WM_Act.fsf
+ITEMPLATE=${basedir}/templates/L1_WM_PPI.fsf
 OTEMPLATE=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/smoothing.feat/ICA_AROMA/denoised_func_data_nonaggr.nii.gz
 sed -e 's@OUTPUT@'$OUTPUT'@g' \
 -e 's@DATA@'$DATA'@g' \
