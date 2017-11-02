@@ -18,15 +18,15 @@ rm -rf ${OUTPUT}.feat
 #EV files
 EVDIR=${MAINDATADIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/EVs
 
-ZBKBODY=${EVDIR}/0bk_body
-ZBKFACE=${EVDIR}/0bk_faces
-ZBKPLACE=${EVDIR}/0bk_places
-ZBKTOOL=${EVDIR}/0bk_tools
+ZBKBODY=${EVDIR}/0bk_body.txt
+ZBKFACE=${EVDIR}/0bk_faces.txt
+ZBKPLACE=${EVDIR}/0bk_places.txt
+ZBKTOOL=${EVDIR}/0bk_tools.txt
 
-TBKBODY=${EVDIR}/2bk_body
-TBKFACE=${EVDIR}/2bk_faces
-TBKPLACE=${EVDIR}/2bk_places
-TBKTOOL=${EVDIR}/2bk_tools
+TBKBODY=${EVDIR}/2bk_body.txt
+TBKFACE=${EVDIR}/2bk_faces.txt
+TBKPLACE=${EVDIR}/2bk_places.txt
+TBKTOOL=${EVDIR}/2bk_tools.txt
 
 #generate mask's timecourse
 MASK=${basedir}/Masks/rT1_Amygdala_Seed.nii

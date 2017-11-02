@@ -10,18 +10,20 @@ MAINDATADIR=`pwd`/data
 MAINOUTPUTDIR=`pwd`/outputs
 cd $basedir
 
-#datadir=/home/tue90350/data/186_Subjects_${task}/$subj/${subj}_3T_tfMRI_${task}_preproc/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}
-
 OUTPUT=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_Emotion_Act
 DATA=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/smoothing.feat/ICA_AROMA/denoised_func_data_nonaggr.nii.gz
 NVOLUMES=`fslnvols ${DATA}`
-rm -rf ${OUTPUT}.feat
+
+#remove if output file exists
+if [ -e ${OUTPUT}.feat ]; then
+  rm -rf ${OUTPUT}.feat
+fi
 
 #EV files
 EVFEAR=${MAINDATADIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/EVs/fear.txt
 EVNEUT=${MAINDATADIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/EVs/neut.txt
 
-#find and replace: run feat for smoothing
+#find and replace: run feat
 ITEMPLATE=${basedir}/templates/L1EmotionAct.fsf
 OTEMPLATE=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_Emotion_Act.fsf
 sed -e 's@OUTPUT@'$OUTPUT'@g' \
