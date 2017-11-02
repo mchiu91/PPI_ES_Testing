@@ -10,10 +10,6 @@ MAINDATADIR=`pwd`/data
 MAINOUTPUTDIR=`pwd`/outputs
 cd $basedir
 
-#datadir=/home/tue90350/data/186_Subjects_${task}/$subj/${subj}_3T_tfMRI_${task}_preproc/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}
-
-#datadir=${basedir}/data/186_Subjects_${task}/$subj/${subj}_3T_tfMRI_${task}_preproc/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}
-
 OUTPUT=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_WM_Act
 DATA=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/smoothing.feat/ICA_AROMA/denoised_func_data_nonaggr.nii.gz
 NVOLUMES=`fslnvols ${DATA}`
@@ -22,29 +18,27 @@ rm -rf ${OUTPUT}.feat
 #EV files
 EVDIR=${MAINDATADIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/EVs
 
-ZBKBODY=${EVDIR}/0bk_body
-ZBKFACE=${EVDIR}/0bk_faces
-ZBKPLACE=${EVDIR}/0bk_places
-ZBKTOOL=${EVDIR}/0bk_tools
+ZBKBODY=${EVDIR}/0bk_body.txt
+ZBKFACE=${EVDIR}/0bk_faces.txt
+ZBKPLACE=${EVDIR}/0bk_places.txt
+ZBKTOOL=${EVDIR}/0bk_tools.txt
 
-TBKBODY=${EVDIR}/2bk_body
-TBKFACE=${EVDIR}/2bk_faces
-TBKPLACE=${EVDIR}/2bk_places
-TBKTOOL=${EVDIR}/2bk_tools
+TBKBODY=${EVDIR}/2bk_body.txt
+TBKFACE=${EVDIR}/2bk_faces.txt
+TBKPLACE=${EVDIR}/2bk_places.txt
+TBKTOOL=${EVDIR}/2bk_tools.txt
 
 #find and replace: run feat for smoothing
 ITEMPLATE=${basedir}/templates/L1_WM_Act.fsf
-OTEMPLATE=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/smoothing.feat/ICA_AROMA/denoised_func_data_nonaggr.nii.gz
+OTEMPLATE=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_WM_Act.fsf
 sed -e 's@OUTPUT@'$OUTPUT'@g' \
 -e 's@DATA@'$DATA'@g' \
 -e 's@NVOLUMES@'$NVOLUMES'@g' \
 -e 's@EVDIR@'$EVDIR'@g' \
-
 -e 's@ZBKBODY'$ZBKBODY'@g'\
 -e 's@ZBKFACE'$ZBKFACE'@g'\
 -e 's@ZBKPLACE'$ZBKPLACE'@g'\
 -e 's@ZBKTOOL'$ZBKTOOL'@g'\
-
 -e 's@TBKBODY'$TBKBODY'@g'\
 -e 's@TBKFACE'$TBKFACE'@g'\
 -e 's@TBKPLACE'$TBKPLACE'@g'\
