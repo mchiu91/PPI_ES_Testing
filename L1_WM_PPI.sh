@@ -13,7 +13,11 @@ cd $basedir
 OUTPUT=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_WM_PPI
 DATA=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/smoothing.feat/ICA_AROMA/denoised_func_data_nonaggr.nii.gz
 NVOLUMES=`fslnvols ${DATA}`
-rm -rf ${OUTPUT}.feat
+
+#remove if output file exists
+if [ -e ${OUTPUT}.feat ]; then
+  rm -rf ${OUTPUT}.feat
+fi
 
 #EV files
 EVDIR=${MAINDATADIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/EVs
@@ -30,6 +34,7 @@ sed -e 's@OUTPUT@'$OUTPUT'@g' \
 -e 's@DATA@'$DATA'@g' \
 -e 's@NVOLUMES@'$NVOLUMES'@g' \
 -e 's@EVDIR@'$EVDIR'@g' \
+-e 's@TIMECOURSE'$TIMECOURSE'@g' \
 
 <$ITEMPLATE> $OTEMPLATE
 feat $OTEMPLATE

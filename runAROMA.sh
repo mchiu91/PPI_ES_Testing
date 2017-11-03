@@ -9,10 +9,11 @@ cd $basedir
 
 
 #for task in EMOTION SOCIAL WM; do
-for task in WM; do
-  for run in LR RL; do
+for task in SOCIAL; do
+  #for run in LR RL; do
+  for run in LR; do
     #for subj in `cat sublist`; do
-    for subj in 100307 100408; do
+    for subj in 100307; do
       #fix paths to reflect lab structure
       datadir=${MAINDATADIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}
       OUTPUTDIR=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}

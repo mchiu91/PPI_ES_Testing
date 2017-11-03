@@ -22,7 +22,6 @@ fi
 #EV files
 EVDIR=${MAINDATADIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/EVs
 
-
 #find and replace: run feat for smoothing
 ITEMPLATE=${basedir}/templates/L1WMAct.fsf
 OTEMPLATE=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_WM_Act.fsf
