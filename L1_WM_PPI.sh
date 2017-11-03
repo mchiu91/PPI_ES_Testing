@@ -11,7 +11,7 @@ MAINOUTPUTDIR=`pwd`/outputs
 cd $basedir
 
 OUTPUT=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_WM_PPI
-DATA=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/smoothing.feat/ICA_AROMA/denoised_func_data_nonaggr.nii.gz
+DATA=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_WM_Act.feat/filtered_func_data.nii.gz
 NVOLUMES=`fslnvols ${DATA}`
 
 #remove if output file exists
@@ -29,12 +29,12 @@ fslmeants -i $DATA -o $TIMECOURSE -m $MASK
 
 #find and replace: run feat for smoothing
 ITEMPLATE=${basedir}/templates/L1_WM_PPI.fsf
-OTEMPLATE=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/smoothing.feat/ICA_AROMA/denoised_func_data_nonaggr.nii.gz
+OTEMPLATE=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_WM_PPI.fsf
 sed -e 's@OUTPUT@'$OUTPUT'@g' \
 -e 's@DATA@'$DATA'@g' \
 -e 's@NVOLUMES@'$NVOLUMES'@g' \
 -e 's@EVDIR@'$EVDIR'@g' \
--e 's@TIMECOURSE'$TIMECOURSE'@g' \
+-e 's@TIMECOURSE@'$TIMECOURSE'@g' \
 
 <$ITEMPLATE> $OTEMPLATE
 feat $OTEMPLATE
