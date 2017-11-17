@@ -2,7 +2,7 @@
 
 basedir=`pwd`
 cd ..
-MAINDATADIR=`pwd`/data
+MAINDATADIR=/s3/hcp
 MAINOUTPUTDIR=`pwd`/outputs
 cd $basedir
 
@@ -10,8 +10,7 @@ cd $basedir
 
 #for task in EMOTION SOCIAL WM; do
 for task in SOCIAL; do
-  #for run in LR RL; do
-  for run in LR; do
+  for run in LR RL; do
     #for subj in `cat sublist`; do
     for subj in 100307; do
       #fix paths to reflect lab structure

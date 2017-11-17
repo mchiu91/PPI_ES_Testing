@@ -28,14 +28,13 @@ TIMECOURSE=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/my
 fslmeants -i $DATA -o $TIMECOURSE -m $MASK
 
 #find and replace: run feat for smoothing
-ITEMPLATE=${basedir}/templates/L1_WM_PPI.fsf
+ITEMPLATE=${basedir}/templates/L1WMPPI.fsf
 OTEMPLATE=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_WM_PPI.fsf
 sed -e 's@OUTPUT@'$OUTPUT'@g' \
 -e 's@DATA@'$DATA'@g' \
 -e 's@NVOLUMES@'$NVOLUMES'@g' \
 -e 's@EVDIR@'$EVDIR'@g' \
 -e 's@TIMECOURSE@'$TIMECOURSE'@g' \
-
 <$ITEMPLATE> $OTEMPLATE
 feat $OTEMPLATE
 

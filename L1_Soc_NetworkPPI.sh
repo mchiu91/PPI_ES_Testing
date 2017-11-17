@@ -24,15 +24,15 @@ EVMENTAL=${MAINDATADIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/EVs/me
 EVRND=${MAINDATADIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/EVs/rnd.txt
 
 #generate mask's timecourse
-MASK=${basedir}/Masks/rT1_vPAC_Seed.nii
+MASK=${basedir}/Masks/smith09_rsn04.nii.gz
 TIMECOURSE=$OUTPUT/dr_stage1_${subj}.txt
 #fslmeants -i $DATA -o $TIMECOURSE -m $MASK
-$FSLDIR/bin/fsl_glm -i $DATA -d $ICA_MAPS -o $OUTPUT/dr_stage1_${subj}.txt --demean -m $OUTPUT/mask
+$FSLDIR/bin/fsl_glm -i $DATA -d $ICA_MAPS -o $OUTPUT/dr_stage1_${subj}.txt --demean -m $MASK
 #$FSLDIR/bin/fsl_glm -i $i -d $OUTPUT/dr_stage1_${s}.txt -o $OUTPUT/dr_stage2_$s --out_z=$OUTPUT/dr_stage2_${s}_Z --demean -m $OUTPUT/mask $DES_NORM
 
 #find and replace: run feat for smoothing
-ITEMPLATE=${basedir}/templates/L1SocialAct.fsf
-OTEMPLATE=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_Social_PPI.fsf
+ITEMPLATE=${basedir}/templates/L1_SOC_NetworkPPI.fsf
+OTEMPLATE=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_Social_NetworkPPI.fsf
 sed -e 's@OUTPUT@'$OUTPUT'@g' \
 -e 's@DATA@'$DATA'@g' \
 -e 's@NVOLUMES@'$NVOLUMES'@g' \
