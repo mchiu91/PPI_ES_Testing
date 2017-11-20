@@ -2,7 +2,8 @@
 
 basedir=`pwd`
 cd ..
-MAINDATADIR=/s3/hcp
+MAINDATADIR=`pwd`/Data
+#MAINDATADIR=/s3/hcp
 MAINOUTPUTDIR=`pwd`/outputs
 cd $basedir
 
