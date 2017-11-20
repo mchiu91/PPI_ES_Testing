@@ -35,6 +35,5 @@ Temporary Items
 *.m~
 data
 *.tar
-*.gz
 *#
 *~
