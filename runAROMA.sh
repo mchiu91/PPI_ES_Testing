@@ -2,33 +2,23 @@
 
 basedir=`pwd`
 cd ..
-MAINDATADIR=`pwd`/Data
-#MAINDATADIR=/s3/hcp
-MAINOUTPUTDIR=`pwd`/outputs
+MAINDATADIR=/s3/hcp
+MAINOUTPUTDIR=`pwd`/Analysis
 cd $basedir
 
+task=$1
+run=$2
+subj=$3
 
+datadir=${MAINDATADIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}
+OUTPUTDIR=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}
 
-#for task in EMOTION SOCIAL WM; do
-for task in SOCIAL; do
-  for run in LR RL; do
-    #for subj in `cat sublist`; do
-    for subj in 100307; do
-      #fix paths to reflect lab structure
-      datadir=${MAINDATADIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}
-      OUTPUTDIR=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}
+mkdir -p $OUTPUTDIR
+OUTPUT=${OUTPUTDIR}/smoothing
+DATA=${datadir}/tfMRI_${task}_${run}.nii.gz
+NVOLUMES=`fslnvols ${DATA}`
+aromaoutput=${OUTPUT}.feat/ICA_AROMA/denoised_func_data_nonaggr.nii.gz
 
-      mkdir -p $OUTPUTDIR
-
-      OUTPUT=${OUTPUTDIR}/smoothing
-      DATA=${datadir}/tfMRI_${task}_${run}.nii.gz
-      NVOLUMES=`fslnvols ${DATA}`
-      aromaoutput=${OUTPUT}.feat/ICA_AROMA/denoised_func_data_nonaggr.nii.gz
-
-      #Checks if AROMA output exists; runs ICA_AROMA if it doesn't exist
-      #if [ -e $aromaoutput ] ; then
-        #echo "exists: $aromaoutput"
-      #else
 
         #delete old output to avoid +.feat directories
         rm -rf ${OUTPUT}.feat
@@ -41,11 +31,7 @@ for task in SOCIAL; do
         <$TEMPLATE> ${OUTPUTDIR}/prep_aroma.fsf
 
         #Runs smoothing for WM tasks only since they were not smoothed in first batch
-        #if [ "$task" == "WM" ]; then
-          feat ${OUTPUTDIR}/prep_aroma.fsf
-        #else
-        #  echo "skipping feat for this $task for this $subj"
-      # fi
+        feat ${OUTPUTDIR}/prep_aroma.fsf
 
         #create variables for ICA AROMA and run it
         myinput=${OUTPUT}.feat/filtered_func_data.nii.gz
@@ -58,9 +44,6 @@ for task in SOCIAL; do
         rm -rf $myoutput
         python splitmotion.py $rawmotion $mcfile
 
-      #fi
         #running AROMA
         python ${basedir}/ICA-AROMA-master/ICA_AROMA_Nonormalizing.py -in $myinput -out $myoutput -mc $mcfile
-    done
-  done
-done
+
