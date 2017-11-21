@@ -26,7 +26,7 @@ for RSNmap in DMN ECN; do
   EVRND=${MAINDATADIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/EVs/rnd.txt
 
   #generate mask's timecourse
-  NET=${basedir}/Masks/smith09_rsn04.nii.gz #DMN
+  NET=${basedir}/Masks/PNAS_2mm_${RSNmap}.nii.gz
   MASK=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_Social_Act.feat/mask
   TIMECOURSE=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_Social_Act.feat/net_${RSNmap}_ts.txt
   fsl_glm -i $DATA -d $NET -o $TIMECOURSE --demean -m $MASK
