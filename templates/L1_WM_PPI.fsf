@@ -56,7 +56,7 @@ set fmri(inputtype) 2
 set fmri(filtering_yn) 1
 
 # Brain/background threshold, %
-set fmri(brain_thresh) 10
+set fmri(brain_thresh) 1
 
 # Critical z for design efficiency calculation
 set fmri(critical_z) 3.09
@@ -94,7 +94,7 @@ set fmri(unwarp_dir) y
 # 0 : None
 # 1 : Regular up (0, 1, 2, 3, ...)
 # 2 : Regular down
-# 3 : Use slice order fileyuyu
+# 3 : Use slice order file
 # 4 : Use slice timings file
 # 5 : Interleaved (0, 2, 4 ... 1, 3, 5 ... )
 set fmri(st) 0
@@ -273,7 +273,7 @@ set feat_files(1) "DATA"
 set fmri(confoundevs) 0
 
 # EV 1 title
-set fmri(evtitle1) "TBKBODY"
+set fmri(evtitle1) "2BK_BODY"
 
 # Basic waveform shape (EV 1)
 # 0 : Square
@@ -334,7 +334,7 @@ set fmri(ortho1.7) 0
 set fmri(ortho1.8) 0
 
 # EV 2 title
-set fmri(evtitle2) "TBKFACE"
+set fmri(evtitle2) "2BK_FACE"
 
 # Basic waveform shape (EV 2)
 # 0 : Square
@@ -395,7 +395,7 @@ set fmri(ortho2.7) 0
 set fmri(ortho2.8) 0
 
 # EV 3 title
-set fmri(evtitle3) "TBKPLACE"
+set fmri(evtitle3) "2BK_PLACE"
 
 # Basic waveform shape (EV 3)
 # 0 : Square
@@ -456,7 +456,7 @@ set fmri(ortho3.7) 0
 set fmri(ortho3.8) 0
 
 # EV 4 title
-set fmri(evtitle4) "TBKTOOL"
+set fmri(evtitle4) "2BK_TOOL"
 
 # Basic waveform shape (EV 4)
 # 0 : Square
@@ -517,7 +517,7 @@ set fmri(ortho4.7) 0
 set fmri(ortho4.8) 0
 
 # EV 5 title
-set fmri(evtitle5) "ZBKBODY"
+set fmri(evtitle5) "0BK_BODY"
 
 # Basic waveform shape (EV 5)
 # 0 : Square
@@ -578,7 +578,7 @@ set fmri(ortho5.7) 0
 set fmri(ortho5.8) 0
 
 # EV 6 title
-set fmri(evtitle6) "ZBKFACE"
+set fmri(evtitle6) "0BK_FACE"
 
 # Basic waveform shape (EV 6)
 # 0 : Square
@@ -639,7 +639,7 @@ set fmri(ortho6.7) 0
 set fmri(ortho6.8) 0
 
 # EV 7 title
-set fmri(evtitle7) "ZBKPLACE"
+set fmri(evtitle7) "0BK_PLACE"
 
 # Basic waveform shape (EV 7)
 # 0 : Square
@@ -700,7 +700,7 @@ set fmri(ortho7.7) 0
 set fmri(ortho7.8) 0
 
 # EV 8 title
-set fmri(evtitle8) "ZBKTOOL"
+set fmri(evtitle8) "0BK_TOOL"
 
 # Basic waveform shape (EV 8)
 # 0 : Square
