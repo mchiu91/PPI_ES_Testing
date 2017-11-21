@@ -6,44 +6,47 @@ subj=$2
 
 basedir=`pwd`
 cd ..
-MAINDATADIR=`pwd`/data
-MAINOUTPUTDIR=`pwd`/outputs
+MAINDATADIR=/s3/hcp
+MAINOUTPUTDIR=`pwd`/Analysis
 cd $basedir
 
-OUTPUT=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_Social_NetworkPPI
-DATA=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_Social_Act.feat/filtered_func_data.nii.gz
-NVOLUMES=`fslnvols ${DATA}`
+for RSNmap in DMN ECN; do
 
-#remove if output file exists
-if [ -e ${OUTPUT}.feat ]; then
-  rm -rf ${OUTPUT}.feat
-fi
+  OUTPUT=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_Social_nPPI_${RSNmap}
+  DATA=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_Social_Act.feat/filtered_func_data.nii.gz
+  NVOLUMES=`fslnvols ${DATA}`
 
-#EV files
-EVMENTAL=${MAINDATADIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/EVs/mental.txt
-EVRND=${MAINDATADIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/EVs/rnd.txt
+  #remove if output file exists
+  if [ -e ${OUTPUT}.feat ]; then
+    rm -rf ${OUTPUT}.feat
+  fi
 
-#generate mask's timecourse
-MASK=${basedir}/Masks/smith09_rsn04.nii.gz
-TIMECOURSE=$OUTPUT/dr_stage1_${subj}.txt
-#fslmeants -i $DATA -o $TIMECOURSE -m $MASK
-$FSLDIR/bin/fsl_glm -i $DATA -d $ICA_MAPS -o $OUTPUT/dr_stage1_${subj}.txt --demean -m $MASK
-#$FSLDIR/bin/fsl_glm -i $i -d $OUTPUT/dr_stage1_${s}.txt -o $OUTPUT/dr_stage2_$s --out_z=$OUTPUT/dr_stage2_${s}_Z --demean -m $OUTPUT/mask $DES_NORM
+  #EV files
+  EVMENTAL=${MAINDATADIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/EVs/mental.txt
+  EVRND=${MAINDATADIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/EVs/rnd.txt
 
-#find and replace: run feat for smoothing
-ITEMPLATE=${basedir}/templates/L1_SOC_NetworkPPI.fsf
-OTEMPLATE=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_Social_NetworkPPI.fsf
-sed -e 's@OUTPUT@'$OUTPUT'@g' \
--e 's@DATA@'$DATA'@g' \
--e 's@NVOLUMES@'$NVOLUMES'@g' \
--e 's@EVMENTAL@'$EVMENTAL'@g' \
--e 's@EVRND@'$EVRND'@g' \
--e 's@TIMECOURSE@'$TIMECOURSE'@g' \
-<$ITEMPLATE> $OTEMPLATE
-feat $OTEMPLATE
+  #generate mask's timecourse
+  NET=${basedir}/Masks/smith09_rsn04.nii.gz #DMN
+  MASK=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_Social_Act.feat/mask
+  TIMECOURSE=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_Social_Act.feat/net_${RSNmap}_ts.txt
+  fsl_glm -i $DATA -d $NET -o $TIMECOURSE --demean -m $MASK
 
-#delete unused files
-#rm -rf ${OUTPUT}.feat/filtered_func_data.nii.gz
-rm -rf ${OUTPUT}.feat/stats/res4d.nii.gz
-rm -rf ${OUTPUT}.feat/stats/corrections.nii.gz
-rm -rf ${OUTPUT}.feat/stats/threshac1.nii.gz
+  #find and replace: run feat for smoothing
+  ITEMPLATE=${basedir}/templates/L1_Soc_PPI.fsf
+  OTEMPLATE=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_Social_nPPI_${RSNmap}.fsf
+  sed -e 's@OUTPUT@'$OUTPUT'@g' \
+  -e 's@DATA@'$DATA'@g' \
+  -e 's@NVOLUMES@'$NVOLUMES'@g' \
+  -e 's@EVMENTAL@'$EVMENTAL'@g' \
+  -e 's@EVRND@'$EVRND'@g' \
+  -e 's@TIMECOURSE@'$TIMECOURSE'@g' \
+  <$ITEMPLATE> $OTEMPLATE
+  feat $OTEMPLATE
+
+  #delete unused files
+  rm -rf ${OUTPUT}.feat/filtered_func_data.nii.gz
+  rm -rf ${OUTPUT}.feat/stats/res4d.nii.gz
+  rm -rf ${OUTPUT}.feat/stats/corrections.nii.gz
+  rm -rf ${OUTPUT}.feat/stats/threshac1.nii.gz
+
+done
