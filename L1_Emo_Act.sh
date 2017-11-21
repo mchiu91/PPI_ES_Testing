@@ -6,8 +6,8 @@ subj=$2
 
 basedir=`pwd`
 cd ..
-MAINDATADIR=`pwd`/data
-MAINOUTPUTDIR=`pwd`/outputs
+MAINDATADIR=/s3/hcp
+MAINOUTPUTDIR=`pwd`/Analysis
 cd $basedir
 
 OUTPUT=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_Emotion_Act
@@ -24,7 +24,7 @@ EVFEAR=${MAINDATADIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/EVs/fear
 EVNEUT=${MAINDATADIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/EVs/neut.txt
 
 #find and replace: run feat
-ITEMPLATE=${basedir}/templates/L1EmotionAct.fsf
+ITEMPLATE=${basedir}/templates/L1_Emo_Act.fsf
 OTEMPLATE=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_Emotion_Act.fsf
 sed -e 's@OUTPUT@'$OUTPUT'@g' \
 -e 's@DATA@'$DATA'@g' \

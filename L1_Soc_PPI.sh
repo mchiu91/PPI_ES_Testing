@@ -6,11 +6,11 @@ subj=$2
 
 basedir=`pwd`
 cd ..
-MAINDATADIR=`pwd`/data
-MAINOUTPUTDIR=`pwd`/outputs
+MAINDATADIR=/s3/hcp
+MAINOUTPUTDIR=`pwd`/Analysis
 cd $basedir
 
-OUTPUT=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_Social_NetworkPPI
+OUTPUT=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_Social_PPI
 DATA=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_Social_Act.feat/filtered_func_data.nii.gz
 NVOLUMES=`fslnvols ${DATA}`
 
@@ -25,13 +25,11 @@ EVRND=${MAINDATADIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/EVs/rnd.t
 
 #generate mask's timecourse
 MASK=${basedir}/Masks/rT1_vPAC_Seed.nii
-TIMECOURSE=$OUTPUT/dr_stage1_${subj}.txt
-#fslmeants -i $DATA -o $TIMECOURSE -m $MASK
-$FSLDIR/bin/fsl_glm -i $DATA -d $ICA_MAPS -o $OUTPUT/dr_stage1_${subj}.txt --demean -m $OUTPUT/mask
-#$FSLDIR/bin/fsl_glm -i $i -d $OUTPUT/dr_stage1_${s}.txt -o $OUTPUT/dr_stage2_$s --out_z=$OUTPUT/dr_stage2_${s}_Z --demean -m $OUTPUT/mask $DES_NORM
+TIMECOURSE=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/my_timecourse.txt
+fslmeants -i $DATA -o $TIMECOURSE -m $MASK
 
 #find and replace: run feat for smoothing
-ITEMPLATE=${basedir}/templates/L1SocialAct.fsf
+ITEMPLATE=${basedir}/templates/L1_Soc_PPI.fsf
 OTEMPLATE=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_Social_PPI.fsf
 sed -e 's@OUTPUT@'$OUTPUT'@g' \
 -e 's@DATA@'$DATA'@g' \
@@ -43,7 +41,7 @@ sed -e 's@OUTPUT@'$OUTPUT'@g' \
 feat $OTEMPLATE
 
 #delete unused files
-#rm -rf ${OUTPUT}.feat/filtered_func_data.nii.gz
+rm -rf ${OUTPUT}.feat/filtered_func_data.nii.gz
 rm -rf ${OUTPUT}.feat/stats/res4d.nii.gz
 rm -rf ${OUTPUT}.feat/stats/corrections.nii.gz
 rm -rf ${OUTPUT}.feat/stats/threshac1.nii.gz
