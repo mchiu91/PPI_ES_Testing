@@ -57,12 +57,12 @@ for subj in `cat sublist`; do
   done
 done
 
-for subj in `cat sublist`; do
-  for run in RL LR; do
-    #Manages the number of jobs and cores
-    while [ $(ps -ef | grep -v grep | grep L1_WM_PPI.sh | wc -l) -ge $NCORES ]; do
-        sleep 1m
-    done
-    bash L1_WM_PPI.sh $run $subj &
-  done
-done
+#for subj in `cat sublist`; do
+#  for run in RL LR; do
+#    #Manages the number of jobs and cores
+#    while [ $(ps -ef | grep -v grep | grep L1_WM_PPI.sh | wc -l) -ge $NCORES ]; do
+#        sleep 1m
+#    done
+#    bash L1_WM_PPI.sh $run $subj &
+#  done
+#done
