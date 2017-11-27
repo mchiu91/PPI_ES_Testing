@@ -14,8 +14,10 @@ OUTPUT=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_Emo
 DATA=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/L1_Emotion_Act.feat/filtered_func_data.nii.gz
 NVOLUMES=`fslnvols ${DATA}`
 
-#remove if output file exists
-if [ -e ${OUTPUT}.feat ]; then
+# checking L1 output
+if [ -e ${OUTPUT}.feat/cluster_mask_zstat1.nii.gz ]; then
+  exit
+else
   rm -rf ${OUTPUT}.feat
 fi
 
