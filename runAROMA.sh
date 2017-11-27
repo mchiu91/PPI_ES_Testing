@@ -15,19 +15,20 @@ OUTPUTDIR=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}
 
 mkdir -p $OUTPUTDIR
 OUTPUT=${OUTPUTDIR}/smoothing
-DATA=${datadir}/tfMRI_${task}_${run}.nii.gz
-NVOLUMES=`fslnvols ${DATA}`
 
 
 #check output
 aromaoutput=${OUTPUT}.feat/ICA_AROMA/denoised_func_data_nonaggr.nii.gz
 if [ -e $aromaoutput ]; then
-	echo "skipping existing output to save money!"
+	#echo "skipping existing output to save money!"
 	exit
 else
-	rm -rf ${OUTPUT}.feat
+echo "re-running $subj on $task and run $run"	
+rm -rf ${OUTPUT}.feat
 fi
 
+DATA=${datadir}/tfMRI_${task}_${run}.nii.gz
+NVOLUMES=`fslnvols ${DATA}`
 
         #find and replace: run feat for smoothing
         TEMPLATE=${basedir}/templates/prep_aroma.fsf
