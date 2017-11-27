@@ -17,11 +17,17 @@ mkdir -p $OUTPUTDIR
 OUTPUT=${OUTPUTDIR}/smoothing
 DATA=${datadir}/tfMRI_${task}_${run}.nii.gz
 NVOLUMES=`fslnvols ${DATA}`
+
+
+#check output
 aromaoutput=${OUTPUT}.feat/ICA_AROMA/denoised_func_data_nonaggr.nii.gz
+if [ -e $aromaoutput ]; then
+	echo "skipping existing output to save money!"
+	exit
+else
+	rm -rf ${OUTPUT}.feat
+fi
 
-
-        #delete old output to avoid +.feat directories
-        rm -rf ${OUTPUT}.feat
 
         #find and replace: run feat for smoothing
         TEMPLATE=${basedir}/templates/prep_aroma.fsf
@@ -46,4 +52,7 @@ aromaoutput=${OUTPUT}.feat/ICA_AROMA/denoised_func_data_nonaggr.nii.gz
 
         #running AROMA
         python ${basedir}/ICA-AROMA-master/ICA_AROMA_Nonormalizing.py -in $myinput -out $myoutput -mc $mcfile
+
+#delete temp file
+rm -rf /tmp/hcp-openaccess/${subj}/MNINonLinear/Results/tfMRI_${task}_${run}/tfMRI_${task}_${run}.nii.gz
 
