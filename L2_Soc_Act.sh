@@ -2,15 +2,14 @@
 
 BASEDIR=`pwd`
 cd ..
-MAINDATADIR=`pwd`/Data
 MAINOUTPUTDIR=`pwd`/Analysis
 cd $BASEDIR
 
 ##bash L2_Soc_Act.sh $subj $task $run
 subj=$1
 
-INPUT01=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_SOCIAL_LR/L1_Social_Act.feat
-INPUT02=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_SOCIAL_RL/L1_Social_Act.feat
+INPUT1=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_SOCIAL_LR/L1_Social_Act.feat
+INPUT2=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_SOCIAL_RL/L1_Social_Act.feat
 OUTPUT=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/L2_Social_Act
 
 # checking L2 output
@@ -22,7 +21,7 @@ else
 fi
 
 for run in LR RL; do
-  rm -rf ${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_SOCIAL_${run}/L1_Social_PPI.feat/reg
+  rm -rf ${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_SOCIAL_${run}/L1_Social_Act.feat/reg
   mkdir -p ${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_SOCIAL_${run}/L1_Social_Act.feat/reg
   ln -s $FSLDIR/etc/flirtsch/ident.mat ${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_SOCIAL_${run}/L1_Social_Act.feat/reg/example_func2standard.mat
   ln -s $FSLDIR/etc/flirtsch/ident.mat ${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_SOCIAL_${run}/L1_Social_Act.feat/reg/standard2example_func.mat

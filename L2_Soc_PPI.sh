@@ -9,8 +9,8 @@ cd $BASEDIR
 ##bash L2_Social_PPI.sh $subj $task $run
 subj=$1
 
-INPUT01=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_SOCIAL_LR/L1_Social_PPI.feat
-INPUT02=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_SOCIAL_RL/L1_Social_PPI.feat
+INPUT1=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_SOCIAL_LR/L1_Social_PPI.feat
+INPUT2=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/tfMRI_SOCIAL_RL/L1_Social_PPI.feat
 OUTPUT=${MAINOUTPUTDIR}/${subj}/MNINonLinear/Results/L2_Social_PPI
 
 # checking L2 output
