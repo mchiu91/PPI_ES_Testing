@@ -1,0 +1,18 @@
+#!/bin/bash
+
+
+NCORES=28
+for LIST in "Soc_Act 2" "Soc_PPI 7"; do
+  set -- $LIST
+  TYPE=$1
+  NCOPES=$2
+
+  for COPENUM in `seq $NCOPES`; do
+    echo $TYPE $COPENUM
+    #Manages the number of jobs and cores
+    while [ $(ps -ef | grep -v grep | grep L3_Soc.sh | wc -l) -ge $NCORES ]; do
+        sleep 1m
+    done
+    bash L3_Soc.sh $TYPE $COPENUM &
+  done
+done

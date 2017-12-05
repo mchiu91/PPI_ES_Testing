@@ -263,562 +263,562 @@ set fmri(paradigm_hp) 100
 set fmri(ncopeinputs) 0
 
 # 4D AVW data or FEAT directory (1)
-set feat_files(1) "/data/Analysis/100307/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(1) "/data/Analysis/100307/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (2)
-set feat_files(2) "/data/Analysis/100408/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(2) "/data/Analysis/100408/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (3)
-set feat_files(3) "/data/Analysis/101006/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(3) "/data/Analysis/101006/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (4)
-set feat_files(4) "/data/Analysis/101107/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(4) "/data/Analysis/101107/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (5)
-set feat_files(5) "/data/Analysis/101309/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(5) "/data/Analysis/101309/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (6)
-set feat_files(6) "/data/Analysis/101410/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(6) "/data/Analysis/101410/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (7)
-set feat_files(7) "/data/Analysis/101915/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(7) "/data/Analysis/101915/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (8)
-set feat_files(8) "/data/Analysis/102008/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(8) "/data/Analysis/102008/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (9)
-set feat_files(9) "/data/Analysis/102311/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(9) "/data/Analysis/102311/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (10)
-set feat_files(10) "/data/Analysis/102816/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(10) "/data/Analysis/102816/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (11)
-set feat_files(11) "/data/Analysis/103111/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(11) "/data/Analysis/103111/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (12)
-set feat_files(12) "/data/Analysis/103515/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(12) "/data/Analysis/103515/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (13)
-set feat_files(13) "/data/Analysis/103818/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(13) "/data/Analysis/103818/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (14)
-set feat_files(14) "/data/Analysis/105014/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(14) "/data/Analysis/105014/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (15)
-set feat_files(15) "/data/Analysis/105115/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(15) "/data/Analysis/105115/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (16)
-set feat_files(16) "/data/Analysis/105216/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(16) "/data/Analysis/105216/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (17)
-set feat_files(17) "/data/Analysis/106016/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(17) "/data/Analysis/106016/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (18)
-set feat_files(18) "/data/Analysis/106521/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(18) "/data/Analysis/106521/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (19)
-set feat_files(19) "/data/Analysis/107321/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(19) "/data/Analysis/107321/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (20)
-set feat_files(20) "/data/Analysis/107422/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(20) "/data/Analysis/107422/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (21)
-set feat_files(21) "/data/Analysis/108121/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(21) "/data/Analysis/108121/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (22)
-set feat_files(22) "/data/Analysis/108323/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(22) "/data/Analysis/108323/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (23)
-set feat_files(23) "/data/Analysis/108525/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(23) "/data/Analysis/108525/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (24)
-set feat_files(24) "/data/Analysis/108828/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(24) "/data/Analysis/108828/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (25)
-set feat_files(25) "/data/Analysis/109123/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(25) "/data/Analysis/109123/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (26)
-set feat_files(26) "/data/Analysis/109325/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(26) "/data/Analysis/109325/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (27)
-set feat_files(27) "/data/Analysis/110411/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(27) "/data/Analysis/110411/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (28)
-set feat_files(28) "/data/Analysis/111312/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(28) "/data/Analysis/111312/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (29)
-set feat_files(29) "/data/Analysis/111413/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(29) "/data/Analysis/111413/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (30)
-set feat_files(30) "/data/Analysis/111716/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(30) "/data/Analysis/111716/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (31)
-set feat_files(31) "/data/Analysis/113215/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(31) "/data/Analysis/113215/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (32)
-set feat_files(32) "/data/Analysis/113922/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(32) "/data/Analysis/113922/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (33)
-set feat_files(33) "/data/Analysis/114419/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(33) "/data/Analysis/114419/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (34)
-set feat_files(34) "/data/Analysis/114924/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(34) "/data/Analysis/114924/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (35)
-set feat_files(35) "/data/Analysis/115320/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(35) "/data/Analysis/115320/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (36)
-set feat_files(36) "/data/Analysis/116524/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(36) "/data/Analysis/116524/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (37)
-set feat_files(37) "/data/Analysis/117122/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(37) "/data/Analysis/117122/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (38)
-set feat_files(38) "/data/Analysis/117324/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(38) "/data/Analysis/117324/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (39)
-set feat_files(39) "/data/Analysis/118528/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(39) "/data/Analysis/118528/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (40)
-set feat_files(40) "/data/Analysis/118730/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(40) "/data/Analysis/118730/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (41)
-set feat_files(41) "/data/Analysis/118932/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(41) "/data/Analysis/118932/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (42)
-set feat_files(42) "/data/Analysis/119833/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(42) "/data/Analysis/119833/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (43)
-set feat_files(43) "/data/Analysis/120212/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(43) "/data/Analysis/120212/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (44)
-set feat_files(44) "/data/Analysis/120515/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(44) "/data/Analysis/120515/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (45)
-set feat_files(45) "/data/Analysis/121618/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(45) "/data/Analysis/121618/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (46)
-set feat_files(46) "/data/Analysis/122317/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(46) "/data/Analysis/122317/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (47)
-set feat_files(47) "/data/Analysis/122620/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(47) "/data/Analysis/122620/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (48)
-set feat_files(48) "/data/Analysis/123117/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(48) "/data/Analysis/123117/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (49)
-set feat_files(49) "/data/Analysis/123420/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(49) "/data/Analysis/123420/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (50)
-set feat_files(50) "/data/Analysis/123925/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(50) "/data/Analysis/123925/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (51)
-set feat_files(51) "/data/Analysis/124220/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(51) "/data/Analysis/124220/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (52)
-set feat_files(52) "/data/Analysis/125525/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(52) "/data/Analysis/125525/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (53)
-set feat_files(53) "/data/Analysis/126325/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(53) "/data/Analysis/126325/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (54)
-set feat_files(54) "/data/Analysis/126628/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(54) "/data/Analysis/126628/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (55)
-set feat_files(55) "/data/Analysis/127630/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(55) "/data/Analysis/127630/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (56)
-set feat_files(56) "/data/Analysis/127933/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(56) "/data/Analysis/127933/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (57)
-set feat_files(57) "/data/Analysis/128127/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(57) "/data/Analysis/128127/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (58)
-set feat_files(58) "/data/Analysis/128632/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(58) "/data/Analysis/128632/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (59)
-set feat_files(59) "/data/Analysis/129028/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(59) "/data/Analysis/129028/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (60)
-set feat_files(60) "/data/Analysis/130013/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(60) "/data/Analysis/130013/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (61)
-set feat_files(61) "/data/Analysis/130316/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(61) "/data/Analysis/130316/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (62)
-set feat_files(62) "/data/Analysis/131217/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(62) "/data/Analysis/131217/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (63)
-set feat_files(63) "/data/Analysis/131722/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(63) "/data/Analysis/131722/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (64)
-set feat_files(64) "/data/Analysis/133019/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(64) "/data/Analysis/133019/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (65)
-set feat_files(65) "/data/Analysis/133827/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(65) "/data/Analysis/133827/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (66)
-set feat_files(66) "/data/Analysis/133928/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(66) "/data/Analysis/133928/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (67)
-set feat_files(67) "/data/Analysis/134324/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(67) "/data/Analysis/134324/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (68)
-set feat_files(68) "/data/Analysis/135225/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(68) "/data/Analysis/135225/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (69)
-set feat_files(69) "/data/Analysis/135528/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(69) "/data/Analysis/135528/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (70)
-set feat_files(70) "/data/Analysis/136227/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(70) "/data/Analysis/136227/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (71)
-set feat_files(71) "/data/Analysis/136833/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(71) "/data/Analysis/136833/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (72)
-set feat_files(72) "/data/Analysis/137027/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(72) "/data/Analysis/137027/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (73)
-set feat_files(73) "/data/Analysis/138534/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(73) "/data/Analysis/138534/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (74)
-set feat_files(74) "/data/Analysis/139233/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(74) "/data/Analysis/139233/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (75)
-set feat_files(75) "/data/Analysis/139637/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(75) "/data/Analysis/139637/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (76)
-set feat_files(76) "/data/Analysis/140925/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(76) "/data/Analysis/140925/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (77)
-set feat_files(77) "/data/Analysis/144832/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(77) "/data/Analysis/144832/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (78)
-set feat_files(78) "/data/Analysis/146432/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(78) "/data/Analysis/146432/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (79)
-set feat_files(79) "/data/Analysis/147030/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(79) "/data/Analysis/147030/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (80)
-set feat_files(80) "/data/Analysis/147737/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(80) "/data/Analysis/147737/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (81)
-set feat_files(81) "/data/Analysis/148335/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(81) "/data/Analysis/148335/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (82)
-set feat_files(82) "/data/Analysis/148840/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(82) "/data/Analysis/148840/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (83)
-set feat_files(83) "/data/Analysis/148941/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(83) "/data/Analysis/148941/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (84)
-set feat_files(84) "/data/Analysis/149741/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(84) "/data/Analysis/149741/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (85)
-set feat_files(85) "/data/Analysis/150423/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(85) "/data/Analysis/150423/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (86)
-set feat_files(86) "/data/Analysis/150726/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(86) "/data/Analysis/150726/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (87)
-set feat_files(87) "/data/Analysis/151223/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(87) "/data/Analysis/151223/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (88)
-set feat_files(88) "/data/Analysis/151526/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(88) "/data/Analysis/151526/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (89)
-set feat_files(89) "/data/Analysis/151627/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(89) "/data/Analysis/151627/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (90)
-set feat_files(90) "/data/Analysis/151728/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(90) "/data/Analysis/151728/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (91)
-set feat_files(91) "/data/Analysis/153833/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(91) "/data/Analysis/153833/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (92)
-set feat_files(92) "/data/Analysis/154734/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(92) "/data/Analysis/154734/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (93)
-set feat_files(93) "/data/Analysis/154835/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(93) "/data/Analysis/154835/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (94)
-set feat_files(94) "/data/Analysis/154936/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(94) "/data/Analysis/154936/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (95)
-set feat_files(95) "/data/Analysis/155231/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(95) "/data/Analysis/155231/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (96)
-set feat_files(96) "/data/Analysis/156233/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(96) "/data/Analysis/156233/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (97)
-set feat_files(97) "/data/Analysis/156637/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(97) "/data/Analysis/156637/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (98)
-set feat_files(98) "/data/Analysis/157437/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(98) "/data/Analysis/157437/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (99)
-set feat_files(99) "/data/Analysis/158136/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(99) "/data/Analysis/158136/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (100)
-set feat_files(100) "/data/Analysis/159138/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(100) "/data/Analysis/159138/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (101)
-set feat_files(101) "/data/Analysis/159239/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(101) "/data/Analysis/159239/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (102)
-set feat_files(102) "/data/Analysis/159340/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(102) "/data/Analysis/159340/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (103)
-set feat_files(103) "/data/Analysis/159441/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(103) "/data/Analysis/159441/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (104)
-set feat_files(104) "/data/Analysis/160830/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(104) "/data/Analysis/160830/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (105)
-set feat_files(105) "/data/Analysis/161630/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(105) "/data/Analysis/161630/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (106)
-set feat_files(106) "/data/Analysis/162228/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(106) "/data/Analysis/162228/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (107)
-set feat_files(107) "/data/Analysis/162733/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(107) "/data/Analysis/162733/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (108)
-set feat_files(108) "/data/Analysis/163331/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(108) "/data/Analysis/163331/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (109)
-set feat_files(109) "/data/Analysis/163432/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(109) "/data/Analysis/163432/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (110)
-set feat_files(110) "/data/Analysis/164030/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(110) "/data/Analysis/164030/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (111)
-set feat_files(111) "/data/Analysis/164131/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(111) "/data/Analysis/164131/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (112)
-set feat_files(112) "/data/Analysis/164939/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(112) "/data/Analysis/164939/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (113)
-set feat_files(113) "/data/Analysis/167036/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(113) "/data/Analysis/167036/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (114)
-set feat_files(114) "/data/Analysis/167743/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(114) "/data/Analysis/167743/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (115)
-set feat_files(115) "/data/Analysis/168139/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(115) "/data/Analysis/168139/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (116)
-set feat_files(116) "/data/Analysis/168341/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(116) "/data/Analysis/168341/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (117)
-set feat_files(117) "/data/Analysis/169444/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(117) "/data/Analysis/169444/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (118)
-set feat_files(118) "/data/Analysis/170934/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(118) "/data/Analysis/170934/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (119)
-set feat_files(119) "/data/Analysis/172029/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(119) "/data/Analysis/172029/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (120)
-set feat_files(120) "/data/Analysis/172332/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(120) "/data/Analysis/172332/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (121)
-set feat_files(121) "/data/Analysis/172534/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(121) "/data/Analysis/172534/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (122)
-set feat_files(122) "/data/Analysis/172938/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(122) "/data/Analysis/172938/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (123)
-set feat_files(123) "/data/Analysis/173435/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(123) "/data/Analysis/173435/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (124)
-set feat_files(124) "/data/Analysis/173940/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(124) "/data/Analysis/173940/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (125)
-set feat_files(125) "/data/Analysis/176542/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(125) "/data/Analysis/176542/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (126)
-set feat_files(126) "/data/Analysis/177645/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(126) "/data/Analysis/177645/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (127)
-set feat_files(127) "/data/Analysis/178142/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(127) "/data/Analysis/178142/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (128)
-set feat_files(128) "/data/Analysis/178849/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(128) "/data/Analysis/178849/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (129)
-set feat_files(129) "/data/Analysis/178950/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(129) "/data/Analysis/178950/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (130)
-set feat_files(130) "/data/Analysis/180129/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(130) "/data/Analysis/180129/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (131)
-set feat_files(131) "/data/Analysis/180432/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(131) "/data/Analysis/180432/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (132)
-set feat_files(132) "/data/Analysis/181232/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(132) "/data/Analysis/181232/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (133)
-set feat_files(133) "/data/Analysis/182739/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(133) "/data/Analysis/182739/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (134)
-set feat_files(134) "/data/Analysis/185442/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(134) "/data/Analysis/185442/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (135)
-set feat_files(135) "/data/Analysis/186141/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(135) "/data/Analysis/186141/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (136)
-set feat_files(136) "/data/Analysis/187143/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(136) "/data/Analysis/187143/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (137)
-set feat_files(137) "/data/Analysis/189349/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(137) "/data/Analysis/189349/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (138)
-set feat_files(138) "/data/Analysis/189450/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(138) "/data/Analysis/189450/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (139)
-set feat_files(139) "/data/Analysis/190031/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(139) "/data/Analysis/190031/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (140)
-set feat_files(140) "/data/Analysis/191033/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(140) "/data/Analysis/191033/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (141)
-set feat_files(141) "/data/Analysis/192540/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(141) "/data/Analysis/192540/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (142)
-set feat_files(142) "/data/Analysis/195041/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(142) "/data/Analysis/195041/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (143)
-set feat_files(143) "/data/Analysis/196750/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(143) "/data/Analysis/196750/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (144)
-set feat_files(144) "/data/Analysis/197550/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(144) "/data/Analysis/197550/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (145)
-set feat_files(145) "/data/Analysis/198451/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(145) "/data/Analysis/198451/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (146)
-set feat_files(146) "/data/Analysis/198855/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(146) "/data/Analysis/198855/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (147)
-set feat_files(147) "/data/Analysis/199655/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(147) "/data/Analysis/199655/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (148)
-set feat_files(148) "/data/Analysis/199958/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(148) "/data/Analysis/199958/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (149)
-set feat_files(149) "/data/Analysis/200614/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(149) "/data/Analysis/200614/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (150)
-set feat_files(150) "/data/Analysis/201818/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(150) "/data/Analysis/201818/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (151)
-set feat_files(151) "/data/Analysis/203418/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(151) "/data/Analysis/203418/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (152)
-set feat_files(152) "/data/Analysis/204016/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(152) "/data/Analysis/204016/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (153)
-set feat_files(153) "/data/Analysis/208226/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(153) "/data/Analysis/208226/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (154)
-set feat_files(154) "/data/Analysis/210011/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(154) "/data/Analysis/210011/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (155)
-set feat_files(155) "/data/Analysis/212217/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(155) "/data/Analysis/212217/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (156)
-set feat_files(156) "/data/Analysis/212318/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(156) "/data/Analysis/212318/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (157)
-set feat_files(157) "/data/Analysis/214423/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(157) "/data/Analysis/214423/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (158)
-set feat_files(158) "/data/Analysis/231928/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(158) "/data/Analysis/231928/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (159)
-set feat_files(159) "/data/Analysis/239944/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(159) "/data/Analysis/239944/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (160)
-set feat_files(160) "/data/Analysis/245333/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(160) "/data/Analysis/245333/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (161)
-set feat_files(161) "/data/Analysis/285446/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(161) "/data/Analysis/285446/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (162)
-set feat_files(162) "/data/Analysis/290136/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(162) "/data/Analysis/290136/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (163)
-set feat_files(163) "/data/Analysis/304020/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(163) "/data/Analysis/304020/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (164)
-set feat_files(164) "/data/Analysis/308331/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(164) "/data/Analysis/308331/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (165)
-set feat_files(165) "/data/Analysis/310621/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(165) "/data/Analysis/310621/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (166)
-set feat_files(166) "/data/Analysis/316633/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(166) "/data/Analysis/316633/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (167)
-set feat_files(167) "/data/Analysis/361941/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(167) "/data/Analysis/361941/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (168)
-set feat_files(168) "/data/Analysis/397760/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(168) "/data/Analysis/397760/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (169)
-set feat_files(169) "/data/Analysis/414229/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(169) "/data/Analysis/414229/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (170)
-set feat_files(170) "/data/Analysis/465852/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(170) "/data/Analysis/465852/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (171)
-set feat_files(171) "/data/Analysis/480141/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(171) "/data/Analysis/480141/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (172)
-set feat_files(172) "/data/Analysis/486759/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(172) "/data/Analysis/486759/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (173)
-set feat_files(173) "/data/Analysis/547046/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(173) "/data/Analysis/547046/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (174)
-set feat_files(174) "/data/Analysis/552544/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(174) "/data/Analysis/552544/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (175)
-set feat_files(175) "/data/Analysis/592455/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(175) "/data/Analysis/592455/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (176)
-set feat_files(176) "/data/Analysis/622236/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(176) "/data/Analysis/622236/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (177)
-set feat_files(177) "/data/Analysis/679568/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(177) "/data/Analysis/679568/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (178)
-set feat_files(178) "/data/Analysis/715041/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(178) "/data/Analysis/715041/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (179)
-set feat_files(179) "/data/Analysis/749361/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(179) "/data/Analysis/749361/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (180)
-set feat_files(180) "/data/Analysis/753251/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(180) "/data/Analysis/753251/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (181)
-set feat_files(181) "/data/Analysis/771354/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(181) "/data/Analysis/771354/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (182)
-set feat_files(182) "/data/Analysis/782561/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(182) "/data/Analysis/782561/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (183)
-set feat_files(183) "/data/Analysis/837560/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(183) "/data/Analysis/837560/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (184)
-set feat_files(184) "/data/Analysis/845458/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(184) "/data/Analysis/845458/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (185)
-set feat_files(185) "/data/Analysis/849971/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(185) "/data/Analysis/849971/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (186)
-set feat_files(186) "/data/Analysis/871964/MNINonLinear/Results/L2_TYPE.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(186) "/data/Analysis/871964/MNINonLinear/Results/L2_Social_nPPI_DMN.gfeat/cope6.feat/stats/cope1.nii.gz"
 
 # Add confound EVs text file
 set fmri(confoundevs) 0
